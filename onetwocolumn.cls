@@ -13,17 +13,16 @@
         \begin{figure}[t!]
             \begin{minipage}[t]{0.48\linewidth}
                 \includegraphics[width=\linewidth]{#1}
-                \small
                 \caption{\captionOne}
                 \label{\labelOne}
                 \end{minipage}%
                 \hfill%
             \begin{minipage}[t]{0.48\linewidth}
                 \includegraphics[width=\linewidth]{#4}
-        \caption{\captionTwo}
-        \label{\labelTwo}
-    \end{minipage} 
-    \end{figure}
+                \caption{\captionTwo}
+                \label{\labelTwo}
+            \end{minipage} 
+        \end{figure}
         }   
         {}
     }
@@ -52,6 +51,6 @@
     
 % in the main document (.tex): 
 %\documentclass[journal,\Fontsize,\noColumns,\status]{IEEEtran}
-%How to use the environment
+%How to use the environment:
 %\begin{figureCol}{pathFig1}{captionFig1}{labelFig1}{pathFig2}{captionFig2}{labelFig2}
 %\end{figureCol}
